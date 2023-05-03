@@ -6,6 +6,7 @@ import { BannerComponent } from './components/header/banner/banner.component';
 import { LoginButtonComponent } from './components/header/login-button/login-button.component';
 import { LogosComponent } from './components/header/logos/logos.component';
 import { SocialNetworksComponent } from './components/header/social-networks/social-networks.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -16,7 +17,8 @@ import { SocialNetworksComponent } from './components/header/social-networks/soc
     BannerComponent,
     LoginButtonComponent,
     LogosComponent,
-    SocialNetworksComponent
+    SocialNetworksComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule
