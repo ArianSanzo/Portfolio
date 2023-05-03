@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-login-button',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./login-button.component.css']
 })
 export class LoginButtonComponent {
+  @Input() text: string = "";
+  @Input() color: string = "";
+  @Output() btnClick = new EventEmitter();
 
+  onClick(){
+    this.btnClick.emit();
+  };
 }
