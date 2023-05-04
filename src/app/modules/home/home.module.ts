@@ -7,6 +7,8 @@ import { LoginButtonComponent } from './components/header/login-button/login-but
 import { LogosComponent } from './components/header/logos/logos.component';
 import { SocialNetworksComponent } from './components/header/social-networks/social-networks.component';
 import { AboutComponent } from './components/about/about.component';
+import { InfoComponent } from './components/about/info/info.component';
+import { PhotoComponent } from './components/about/photo/photo.component';
 
 
 
@@ -18,7 +20,9 @@ import { AboutComponent } from './components/about/about.component';
     LoginButtonComponent,
     LogosComponent,
     SocialNetworksComponent,
-    AboutComponent
+    AboutComponent,
+    InfoComponent,
+    PhotoComponent
   ],
   imports: [
     CommonModule
