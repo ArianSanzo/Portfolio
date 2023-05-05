@@ -9,6 +9,8 @@ import { SocialNetworksComponent } from './components/header/social-networks/soc
 import { AboutComponent } from './components/about/about.component';
 import { InfoComponent } from './components/about/info/info.component';
 import { PhotoComponent } from './components/about/photo/photo.component';
+import { JobsComponent } from './components/jobs/jobs.component';
+import { JobComponent } from './components/jobs/job/job.component';
 
 
 
@@ -22,7 +24,9 @@ import { PhotoComponent } from './components/about/photo/photo.component';
     SocialNetworksComponent,
     AboutComponent,
     InfoComponent,
-    PhotoComponent
+    PhotoComponent,
+    JobsComponent,
+    JobComponent
   ],
   imports: [
     CommonModule
