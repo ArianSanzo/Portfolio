@@ -11,6 +11,8 @@ import { InfoComponent } from './components/about/info/info.component';
 import { PhotoComponent } from './components/about/photo/photo.component';
 import { JobsComponent } from './components/jobs/jobs.component';
 import { JobComponent } from './components/jobs/job/job.component';
+import { EducationComponent } from './components/education/education.component';
+import { TitleComponent } from './components/education/title/title.component';
 
 
 
@@ -26,7 +28,9 @@ import { JobComponent } from './components/jobs/job/job.component';
     InfoComponent,
     PhotoComponent,
     JobsComponent,
-    JobComponent
+    JobComponent,
+    EducationComponent,
+    TitleComponent
   ],
   imports: [
     CommonModule

@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./job.component.css']
 })
 export class JobComponent {
-  public logo: string = "";
-  place: string = "Ejemplo";
-  job: string = "Ejemplificador";
-  description: string = "Hacemos varias cosas";
-  jobStart: any = "2017";
-  jobEnd: any = "2019";
+  protected logo: string = "";
+  protected place: string = "Ejemplo";
+  protected job: string = "Ejemplificador";
+  protected description: string = "Hacemos varias cosas";
+  protected jobStart: any = "2017";
+  protected jobEnd: any = "2019";
 }
