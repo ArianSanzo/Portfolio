@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    color: white;
+}
+.info{
+    border: 3px solid black;
+    margin: 2px auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
