@@ -13,6 +13,8 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { JobComponent } from './components/jobs/job/job.component';
 import { EducationComponent } from './components/education/education.component';
 import { TitleComponent } from './components/education/title/title.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillComponent } from './components/skills/skill/skill.component';
 
 
 
@@ -30,7 +32,9 @@ import { TitleComponent } from './components/education/title/title.component';
     JobsComponent,
     JobComponent,
     EducationComponent,
-    TitleComponent
+    TitleComponent,
+    SkillsComponent,
+    SkillComponent
   ],
   imports: [
     CommonModule
