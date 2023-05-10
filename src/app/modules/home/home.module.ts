@@ -15,6 +15,8 @@ import { EducationComponent } from './components/education/education.component';
 import { TitleComponent } from './components/education/title/title.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SkillComponent } from './components/skills/skill/skill.component';
+import { LanguagesComponent } from './components/skills/languages/languages.component';
+import { LanguageComponent } from './components/skills/languages/language/language.component';
 
 
 
@@ -34,7 +36,9 @@ import { SkillComponent } from './components/skills/skill/skill.component';
     EducationComponent,
     TitleComponent,
     SkillsComponent,
-    SkillComponent
+    SkillComponent,
+    LanguagesComponent,
+    LanguageComponent
   ],
   imports: [
     CommonModule
