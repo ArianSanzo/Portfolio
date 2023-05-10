@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./language.component.css']
 })
 export class LanguageComponent {
-
+  protected language: string="Ingles";
+  protected level: string="Avanzado";
+  protected reference: string="";
 }

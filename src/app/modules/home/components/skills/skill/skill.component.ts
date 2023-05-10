@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent {
-
+  protected skill: string = "Sociable";
+  protected percentage: number = 50;
 }
