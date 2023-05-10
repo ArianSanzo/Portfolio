@@ -17,6 +17,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { SkillComponent } from './components/skills/skill/skill.component';
 import { LanguagesComponent } from './components/skills/languages/languages.component';
 import { LanguageComponent } from './components/skills/languages/language/language.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
+import { ProyectComponent } from './components/proyects/proyect/proyect.component';
 
 
 
@@ -38,7 +40,9 @@ import { LanguageComponent } from './components/skills/languages/language/langua
     SkillsComponent,
     SkillComponent,
     LanguagesComponent,
-    LanguageComponent
+    LanguageComponent,
+    ProyectsComponent,
+    ProyectComponent
   ],
   imports: [
     CommonModule
