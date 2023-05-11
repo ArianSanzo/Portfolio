@@ -19,6 +19,7 @@ import { LanguagesComponent } from './components/skills/languages/languages.comp
 import { LanguageComponent } from './components/skills/languages/language/language.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { ProyectComponent } from './components/proyects/proyect/proyect.component';
+import { AddButtonComponent } from './components/shared/add-button/add-button.component';
 
 
 
@@ -42,7 +43,8 @@ import { ProyectComponent } from './components/proyects/proyect/proyect.componen
     LanguagesComponent,
     LanguageComponent,
     ProyectsComponent,
-    ProyectComponent
+    ProyectComponent,
+    AddButtonComponent
   ],
   imports: [
     CommonModule
